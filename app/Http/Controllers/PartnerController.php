@@ -17,7 +17,7 @@ class PartnerController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index() {
-        $partners = Partner::paginate(3);
+        $partners = Partner::paginate(20);
         return view('pages.partners', compact('partners'));
     }
 

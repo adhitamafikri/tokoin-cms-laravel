@@ -19,3 +19,11 @@ mix.js('resources/js/app.js', 'public/js')
    .sass(sass_app, css_path)
    .sass(`${sass_pages}/home.scss`, css_path)
    .sass(`${sass_pages}/partners.scss`, css_path);
+
+mix.copyDirectory('resources/css', 'public/css')
+   .copyDirectory('resources/img', 'public/img')
+   .copyDirectory('resources/vendor', 'public/vendor');
+
+if(mix.inProduction()) {
+   mix.version();
+}

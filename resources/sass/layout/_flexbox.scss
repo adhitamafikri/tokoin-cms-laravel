@@ -1,8 +1,0 @@
-// ** Custom mixin for flexbox
-@mixin flex($dir, $jus: flex-start, $align: flex-start, $wrap: nowrap) {
-  display: flex;
-  flex-direction: $dir;
-  justify-content: $jus;
-  align-items: $align;
-  flex-wrap: $wrap;
-}
