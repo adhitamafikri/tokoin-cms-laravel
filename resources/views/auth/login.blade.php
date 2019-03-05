@@ -21,9 +21,9 @@
                     </div>
                 </div> -->--}}
                 <div class="card-body px-lg-5 py-lg-5">
-                    <div class="text-center text-muted mb-4">
+                    <!-- <div class="text-center text-muted mb-4">
                         <small>Or sign in with credentials</small>
-                    </div>
+                    </div> -->
                     <form role="form" method="POST" action="{{ route('login') }}">
                         @csrf
                         <div class="form-group mb-3">
