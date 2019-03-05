@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Brand -->
-        <a class="navbar-brand pt-0" href="{{ route('home') }}">
+        <a class="navbar-brand pt-0" href="{{ route('dashboard') }}">
             <img src="{{ asset('img/brand/logo.svg') }}" class="navbar-brand-img" alt="tokoin">
         </a>
         <!-- User -->
@@ -27,7 +27,7 @@
                 <a class="nav-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <div class="media align-items-center">
                         <span class="avatar avatar-sm rounded-circle">
-                            <img alt="Image placeholder" src="./assets/img/theme/team-1-800x800.jpg">
+                            <img alt="Image placeholder" src="{{ asset('img/theme/team-1-800x800.jpg') }}">
                         </span>
                     </div>
                 </a>
@@ -65,8 +65,8 @@
             <div class="navbar-collapse-header d-md-none">
                 <div class="row">
                     <div class="col-6 collapse-brand">
-                        <a href="./index.html">
-                            <img src="./assets/img/brand/blue.png">
+                        <a href="{{ route('dashboard') }}">
+                            <img src="{{ asset('img/brand/logo.svg') }}">
                         </a>
                     </div>
                     <div class="col-6 collapse-close">
@@ -93,7 +93,7 @@
             <!-- Navigation -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('home') }}">
+                    <a class="nav-link" href="{{ route('dashboard') }}">
                         <i class="ni ni-tv-2 text-primary"></i> Home
                     </a>
                 </li>

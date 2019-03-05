@@ -30,13 +30,19 @@
 
 <body>
     <div id="app">
-        @include ('components.header')
+        @if (!Auth::check())
+            @include ('components.header')
+        @endif
 
-        @if (!in_array(Request::segment(1), array('login', 'register')))
+        @if (!in_array(Request::segment(1), array('login', 'register', 'password')))
             @include ('components.sidebar')
         @endif
 
-        <main class="px-4 py-4 {{ in_array(Request::segment(1), array('login', 'register')) ? 'w-100' : '' }}">
+        <main class="main-content">
+            @if (Auth::check())
+                @include ('components.header-logged-in')
+            @endif
+            
             @yield('content')
         </main>
     </div>
