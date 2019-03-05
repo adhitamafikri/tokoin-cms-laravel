@@ -1,0 +1,70 @@
+// colors
+// -- flat colors
+$primary-accent: #9C8FFD;
+$primary-accent-dark: #7652D2;
+$secondary-accent: #9583F0;
+$secondary-accent-dark: #9B75DE;
+$tertiary-accent: #EE9224;
+$notification-accent: #00002E;
+$white-accent: rgba(154, 153, 171, 0.1);
+$gray: #D7D7D7;
+$gray-dark: #9E9E9E;
+
+$white: #fff;
+$blue: #0088cc;
+$red: #ff5a61;
+
+// -- gradients
+$gradient-primary: linear-gradient($primary-accent, $primary-accent-dark);
+
+// -- element colors
+// $body-bg: $primary-accent;
+$text-muted: #6c757d;
+$text-darken: darken($white, 10%);
+$text-lighten: lighten(black, 55%);
+
+// fonts
+// -- font faces
+@font-face {
+  font-family: MuliRegular;
+  src: url('/fonts/Muli-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  -webkit-font-smoothing: antialiased;
+  font-display: block;
+};
+@font-face {
+  font-family: MuliBold;
+  src: url('/fonts/Muli-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-display: block;
+};
+// -- font families
+$family-muli-reg: MuliRegular, Arial, Helvetica, sans-serif;
+$family-muli-bold: MuliBold, Arial, Helvetica, sans-serif;
+
+// -- font sizes
+$font-size-base: 1rem;
+$font-size-small: 12px;
+$font-size-normal: 14px;
+$font-size-large: 18px;
+$font-size-larger: 24px;
+$font-size-xl: 30px;
+$font-size-xxl: 45px;
+
+// viewport sizes
+$screen-xs-min: 320px;
+$screen-xs-max: 575px;
+$screen-sm-min: 576px;
+$screen-sm-max: 767px;
+$screen-md-min: 768px;
+$screen-md-max: 991px;
+$screen-lg-min: 992px;
+$screen-lg-max: 1439px;
+$screen-2k: 1440px;
+$screen-4k: 2560px;
