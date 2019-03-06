@@ -1,7 +1,25 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="header bg-gradient-primary pb-1 pt-5 pt-md-8" style="z-index: -1;">
+    <div class="container">
+        <div class="header-body text-center mb-7">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-6">
+                    <h1 class="text-white">Registration</h1>
+                    <!-- <p class="text-lead text-light">Please Login to Access Tokoin CMS</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="separator separator-bottom separator-skew zindex-100">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+            <polygon class="fill-default" points="2560 0 2560 100 0 100"></polygon>
+        </svg>
+    </div>
+</div>
+
+<div class="container-fluid bg-default py-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">

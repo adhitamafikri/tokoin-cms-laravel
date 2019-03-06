@@ -12,9 +12,9 @@ class PartnersTableSeeder extends Seeder
     public function run()
     {
         DB::table('tk_partners')->insert([
-            'first_name' => 'Sentry',
-            'last_name' => 'Gun',
-            'email' => 'sentry@gmail.com',
+            'first_name' => 'Almeida',
+            'last_name' => 'Flores',
+            'email' => 'almeida@gmail.com',
             'phone' => '0982462323',
             'wallet_address' => 'o9x9090934jsdkfjskd',
             'amount' => '10',
@@ -23,9 +23,9 @@ class PartnersTableSeeder extends Seeder
         ]);
 
         DB::table('tk_partners')->insert([
-            'first_name' => 'Maxim',
-            'last_name' => 'Gun',
-            'email' => 'maxim@gmail.com',
+            'first_name' => 'Adhitama',
+            'last_name' => 'Vickery',
+            'email' => 'vickery@gmail.com',
             'phone' => '0982462323',
             'wallet_address' => 'o9x9090934jsdkfjskd',
             'amount' => '15',
@@ -34,9 +34,9 @@ class PartnersTableSeeder extends Seeder
         ]);
 
         DB::table('tk_partners')->insert([
-            'first_name' => 'Jimmy',
+            'first_name' => 'Hermano',
             'last_name' => 'Gun',
-            'email' => 'jimmy@gmail.com',
+            'email' => 'hermano@gmail.com',
             'phone' => '0982462323',
             'wallet_address' => 'o9x9090934jsdkfjskd',
             'amount' => '500000',
@@ -67,9 +67,9 @@ class PartnersTableSeeder extends Seeder
         ]);
 
         DB::table('tk_partners')->insert([
-            'first_name' => 'Jimmy',
-            'last_name' => 'Gun',
-            'email' => 'jimmygun@gmail.com',
+            'first_name' => 'Sergei',
+            'last_name' => 'Dragunov',
+            'email' => 'dragunov@gmail.com',
             'phone' => '0982462323',
             'wallet_address' => 'o9x9090934jsdkfjskd',
             'amount' => '500000',
@@ -78,9 +78,9 @@ class PartnersTableSeeder extends Seeder
         ]);
 
         DB::table('tk_partners')->insert([
-            'first_name' => 'Jimmy',
-            'last_name' => 'Gun',
-            'email' => 'jimmygunn@gmail.com',
+            'first_name' => 'Elton',
+            'last_name' => 'McKinsey',
+            'email' => 'elton@gmail.com',
             'phone' => '0982462323',
             'wallet_address' => 'o9x9090934jsdkfjskd',
             'amount' => '500000',

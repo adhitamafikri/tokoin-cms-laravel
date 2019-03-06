@@ -30,10 +30,6 @@
 
 <body>
     <div id="app">
-        @if (!Auth::check())
-            @include ('components.header')
-        @endif
-
         @if (!in_array(Request::segment(1), array('login', 'register', 'password')))
             @include ('components.sidebar')
         @endif
@@ -41,6 +37,8 @@
         <main class="main-content">
             @if (Auth::check())
                 @include ('components.header-logged-in')
+            @else
+                @include ('components.header')
             @endif
             
             @yield('content')
