@@ -45,9 +45,9 @@ class PartnersTableSeeder extends Seeder
         ]);
 
         DB::table('tk_partners')->insert([
-            'first_name' => 'Jimmy',
-            'last_name' => 'Gun',
-            'email' => 'jimmyg@gmail.com',
+            'first_name' => 'Jermaine',
+            'last_name' => 'Cole',
+            'email' => 'jermaine@gmail.com',
             'phone' => '0982462323',
             'wallet_address' => 'o9x9090934jsdkfjskd',
             'amount' => '500000',
